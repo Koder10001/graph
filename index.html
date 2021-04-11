@@ -5,11 +5,13 @@
   <meta http-equiv="Expires" content="0" />
   <title>Test 1</title>
   <meta property="og:title" content="" />
-  <meta property="og:description" content="Hi bitch" />
+  <meta property="og:description" id="des" content="" />
   <meta property="og:site_name" content=""/>
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://koder10001.github.io/graph/" />
   <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
 </head>
-  
+  <script>
+    document.querySelector("#des").setAttribute("content", document.cookie);                                                              
+  </script>
 </html>
